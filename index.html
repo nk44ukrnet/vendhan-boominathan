@@ -166,7 +166,11 @@ I run sprint calls, work with engineers to ship what users actually want, write 
                 </div>
             </div>
             <div class="hb-hero__img">
-                <img src="img/hero.avif" alt="Vendhan Boominathan" fetchpriority="high" decoding="async">
+                <picture>
+                    <source media="(min-width: 1300px)" srcset="img/hero.avif">
+                    <source media="(min-width: 1000px)" srcset="img/hero1200.avif">
+                    <img src="img/hero768.avif" alt="Vendhan Boominathan" fetchpriority="high" decoding="async">
+                </picture>
             </div>
         </div>
         <div class="hb-about hb-block-gap padding-inline" id="about">
